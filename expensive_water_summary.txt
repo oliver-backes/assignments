@@ -1,0 +1,126 @@
+  1. BIOGUIDE_ID
+	<class 'str'>
+	Nulls: True
+	Values: B001285, T000462, J000174, M001143, P000591
+  2. OFFICE
+	<class 'str'>
+	Nulls: False
+	Unique values: 13
+	5 most frequent values:
+		CHIEF ADMIN OFCR OF THE HOUSE:	3
+		COMMITTEE ON WAYS AND MEANS:	2
+		HON. TOM PRICE:	1
+		OFFICE OF THE MINORITY LEADER:	1
+		HON. BETTY MCCOLLUM:	1
+	Max length: 30
+  3. QUARTER
+	<class 'str'>
+	Nulls: False
+	Values: 2017Q1
+  4. PROGRAM
+	<class 'str'>
+	Nulls: False
+	Values: APPROPRIATIONS COMMITTEE, OFFICIAL EXPENSES OF MEMBERS, NON - PERSONNEL, ADMIN AND OPS, GENERAL EXPENDITURES
+  5. CATEGORY
+	<class 'str'>
+	Nulls: False
+	Values: SUPPLIES AND MATERIALS
+  6. DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2017-01-05
+	Max: 2017-03-30
+	Unique values: 12
+	5 most frequent values:
+		2017-02-27:	3
+		2017-01-13:	2
+		2017-01-19:	2
+		2017-03-30:	1
+		2017-02-03:	1
+  7. TRANSCODE
+	<class 'str'>
+	Nulls: False
+	Values: AP
+  8. RECORDID
+	<class 'str'>
+	Nulls: False
+	Unique values: 14
+	5 most frequent values:
+		906775:	3
+		912405:	1
+		E0471249:	1
+		E0478521:	1
+		902259:	1
+	Max length: 8
+  9. PAYEE
+	<class 'str'>
+	Nulls: False
+	Unique values: 6
+	5 most frequent values:
+		HAGUE QUALITY WATER OF MD INC:	5
+		DEER PARK:	5
+		WATERLOGIC EAST LLC:	3
+		QUENCH:	1
+		CRYSTAL SPRINGS:	1
+	Max length: 29
+ 10. START DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2016-11-01
+	Max: 2017-02-28
+	Unique values: 10
+	5 most frequent values:
+		2017-01-01:	5
+		2017-01-31:	3
+		2017-01-04:	1
+		2016-12-31:	1
+		2017-01-24:	1
+ 11. END DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2016-11-30
+	Max: 2019-01-01
+	Unique values: 8
+	5 most frequent values:
+		2017-12-31:	6
+		2017-01-31:	3
+		2018-12-31:	2
+		2019-01-01:	1
+		2016-12-31:	1
+ 12. PURPOSE
+	<class 'str'>
+	Nulls: False
+	Values: WATER
+ 13. AMOUNT
+	<class 'float'>
+	Nulls: False
+	Min: 1019.43
+	Max: 4158.0
+	Sum: 29198.359999999997
+	Mean: 1824.8974999999998
+	Median: 1499.17
+	Standard Deviation: 974.5033039547634
+	Unique values: 15
+	5 most frequent values:
+		1512.0:	2
+		1486.34:	1
+		1577.37:	1
+		1226.5:	1
+		1543.5:	1
+ 14. YEAR
+	<class 'int'>
+	Nulls: False
+	Values: 2016, 2017, 2018, 2019
+ 15. RECIP (orig.)
+	<class 'str'>
+	Nulls: False
+	Unique values: 6
+	5 most frequent values:
+		HAGUE QUALITY WATER OF MD INC:	5
+		DEER PARK:	5
+		WATERLOGIC EAST LLC:	3
+		QUENCH:	1
+		CRYSTAL SPRINGS:	1
+	Max length: 29
+
+Row count: 16

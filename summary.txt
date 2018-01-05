@@ -1,0 +1,120 @@
+  1. BIOGUIDE_ID
+	<class 'str'>
+	Nulls: True
+	Values: P000601, T000477, D000399, L000583
+  2. OFFICE
+	<class 'str'>
+	Nulls: False
+	Unique values: 6
+	5 most frequent values:
+		FURNISHINGS:	6
+		CHIEF ADMIN OFCR OF THE HOUSE:	2
+		HON. STEVEN M. PALAZZO:	1
+		HON. BARRY LOUDERMILK:	1
+		HON. LLOYD DOGGETT:	1
+	Max length: 29
+  3. QUARTER
+	<class 'str'>
+	Nulls: False
+	Values: 2017Q1
+  4. PROGRAM
+	<class 'str'>
+	Nulls: False
+	Values: CONGRESSIONAL TRANSITION, OFFICIAL EXPENSES OF MEMBERS, FINISH SCHEDULE
+  5. CATEGORY
+	<class 'str'>
+	Nulls: False
+	Values: EQUIPMENT
+  6. DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2017-01-05
+	Max: 2017-03-24
+	Unique values: 10
+	5 most frequent values:
+		2017-01-09:	3
+		2017-03-10:	1
+		2017-02-17:	1
+		2017-01-30:	1
+		2017-03-03:	1
+  7. TRANSCODE
+	<class 'str'>
+	Nulls: False
+	Values: GL, AP
+  8. RECORDID
+	<class 'str'>
+	Nulls: False
+	Unique values: 11
+	5 most frequent values:
+		GLA0064748:	2
+		901999:	1
+		907311:	1
+		900882:	1
+		897172:	1
+	Max length: 10
+  9. PAYEE
+	<class 'str'>
+	Nulls: True
+	Unique values: 6
+	5 most frequent values:
+		AMERICAS INTERIOR SERVICES CORPORATION:	5
+		BLOOMSBURG CARPET INDUSTRIES INC:	1
+		FABRICA INTERNATIONAL:	1
+		METRO PAINTING LLC:	1
+		COMMERCIAL CARPETS OF AMERICA INC:	1
+	Max length: 38
+ 10. START DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2016-12-21
+	Max: 2017-02-24
+	Unique values: 10
+	5 most frequent values:
+		2016-12-21:	2
+		2016-12-29:	2
+		2017-02-14:	1
+		2017-02-24:	1
+		2017-01-02:	1
+ 11. END DATE
+	<class 'datetime.date'>
+	Nulls: False
+	Min: 2016-12-21
+	Max: 2017-02-24
+	Unique values: 10
+	5 most frequent values:
+		2016-12-21:	2
+		2016-12-29:	2
+		2017-02-14:	1
+		2017-01-20:	1
+		2017-01-06:	1
+ 12. PURPOSE
+	<class 'str'>
+	Nulls: False
+	Values: CARPET
+ 13. AMOUNT
+	<class 'float'>
+	Nulls: False
+	Min: 1059.01
+	Max: 156001.43
+	Sum: 236592.96
+	Mean: 19716.079999999998
+	Median: 3800.0
+	Standard Deviation: 42302.738520164785
+	Unique values: 12
+ 14. YEAR
+	<class 'int'>
+	Nulls: False
+	Values: 2016, 2017
+ 15. RECIP (orig.)
+	<class 'str'>
+	Nulls: True
+	Unique values: 6
+	5 most frequent values:
+		AMERICAS INTERIOR SERVICES CORPORATION:	5
+		BLOOMSBURG CARPET INDUSTRIES INC:	1
+		FABRICA INTERNATIONAL:	1
+		METRO PAINTING LLC:	1
+		COMMERCIAL CARPETS OF AMERICA INC:	1
+	Max length: 38
+
+Row count: 12
