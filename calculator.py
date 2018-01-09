@@ -28,7 +28,7 @@ def cube(a):
 def square_n_times(number,n):
 	for x in range(0,n):
 		number = square(number)
-		return number
+	return number
 
 #This portion of the code calls the multiply function and provides an explanation
 print "I'm going to use the calculator function to multiply 2 and 36:"
